@@ -1,0 +1,11 @@
+1) change the PATH variable to wherever the data is stored and make sure there are no other files in the folder. Not even readme or anything 
+2) In Ubuntu press ctrl+alt+F4 . Login and cd to the place of project.py
+3) run pypy project.py ( might have to install pypy) 
+4) 3 files would be generated - 
+Result - containing all the outputs
+Degree - degrees of all the indices
+Cluster - This was more for self reference contains clustering coefficient values for all 
+5) To map the data back to the graph one can think of traversing the 63*63 matrix row by row . starting from the left most and moving to the rightmost. This is given that how was the data was stored in the files in the first place
+
+6) To calculate the data with a lag i.e. a step of 2,3,4 weeks use project1.py 
+7) Initialise the lag variable to 1,2,3,4  and the code takes care of the rest.  
